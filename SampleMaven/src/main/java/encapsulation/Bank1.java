@@ -1,38 +1,27 @@
 package encapsulation;
-
+import java.util.Scanner;
 public class Bank1 {
+	private int pin;
 	
-	private int a;
-	private int b;
-	private int c;
-	
-	public int getA() {
-		return a;
+	public void setPin(int pin)
+	{	
+		this.pin = pin;
+		}
+	public void getPin() {
+		System.out.println(pin);
 	}
-
-	public void setA(int a) {
-		this.a = a;
-	}
-
-	public int getB() {
-		return b;
-	}
-
-	public void setB(int b) {
-		this.b = b;
-	}
-
-	public int getC() {
-		return c;
-	}
-
-	public void setC(int c) {
-		this.c = c;
-	}
-
-	public void setpin()
+	public void validatepin()
 	{
-		System.out.println("Set the pin");
-	}
-	
-}
+		if(pin==1001|| pin==1234 || pin==1212)
+		{
+			System.out.println("Valid PIN ...WITHDRAW AMOUNT ");
+			System.out.println("Enter the amount to be withdrawn ");
+			Scanner sc=new Scanner(System.in);
+			int amount=sc.nextInt();
+			System.out.println("The withdrawl amount is "+amount);
+		}
+		else
+		{
+			System.out.println("invalid pin");
+		}
+	}}

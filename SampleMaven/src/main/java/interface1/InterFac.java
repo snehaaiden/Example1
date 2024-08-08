@@ -17,7 +17,7 @@ public class InterFac implements InterF1,InterF2{
 
 		public static void main(String[] args) {
 			
-			InterFac obj= new InterFac();
+			InterFac obj= new InterFac();//object for childclass
 			obj.displays1();
 			obj.displays2();
 	}

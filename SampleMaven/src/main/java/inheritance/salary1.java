@@ -20,7 +20,7 @@ import java.util.Scanner;
 		System.out.println("Enter the bonus");
 		bonus=sc.nextDouble();
 		
-		//sc.close();
+		sc.close();
 	}
 	}
  

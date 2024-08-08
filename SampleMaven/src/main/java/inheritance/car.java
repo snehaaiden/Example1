@@ -6,6 +6,4 @@ public class car extends vechile {
 		System.out.println("Welcome");
 		
 	}
-
-
 }

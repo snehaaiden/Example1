@@ -10,7 +10,7 @@ public class Developer extends Employee{
 	
 	public static void main(String[] args) {
 		
-		Developer obj= new Developer();
+		Developer obj= new Developer();//child class obj
 		obj.display();
 		obj.printing();
 		System.out.println(obj.a);

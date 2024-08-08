@@ -1,6 +1,6 @@
 package exception;
 
-import java.io.IOException;
+import java.io.IOException;//always import classes for checked exceptions
 
 public class Checked {
 	public static void M()throws IOException
@@ -10,16 +10,17 @@ public class Checked {
 
 	public static void main(String[] args) {
 		
-	try {
+	try {//as checked
 		Checked.M();
-	} catch (IOException e) {
+	} catch (IOException e) {//handling exception
 		// TODO Auto-generated catch block
-		e.printStackTrace();
-	}
+		e.printStackTrace();//can show in red as try catch was generated
+		//it can be removed when e.printStackTrace(); is removed
+	
 		
-		
+		//Checked.M();   throws IOException  along with mainfunction
 		
 
 	}
-
-}
+System.out.println("hello");
+	}}

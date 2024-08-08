@@ -7,23 +7,22 @@ public class Test {
 		if(age<18)
 		{
 			throw new LicenseException("Not eligible");
-			
 		}
 		else
 		{
 			System.out.println("Eligible");
-	}
 		}
+	}
 	
-
 	public static void main(String[] args) {
 		
-try {
-	check(20);
-} catch (LicenseException e) {
+		try {
+				check(3);
+			}
+		catch (LicenseException e) {
 	// TODO Auto-generated catch block
-	e.printStackTrace();
-}
-	}
-
-}
+			System.out.println(e);
+			}
+		System.out.println("rest of the code");
+		}
+		}

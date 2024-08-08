@@ -5,7 +5,7 @@ public class Throwexample {
 	{
 		int sum=a+b;
 		if(sum>40)
-		{
+		{// throw is user explicitly creates an exception
 			throw new ArithmeticException("sum greater than 40");
 		}
 		else
@@ -17,13 +17,17 @@ public class Throwexample {
 	public static void main(String[] args) {
 	try{
 		
-		check(20,10);
+		check(60,10);
 	}
 	catch(ArithmeticException e)
 	{
 		System.out.println(e);
 	}
 	//check(50,10);
+	finally
+	{
+		System.out.println("Should print this statement");
+	}
 	System.out.println("rest of code is executed");
 		
 	

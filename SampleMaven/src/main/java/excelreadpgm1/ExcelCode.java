@@ -16,7 +16,7 @@ public class ExcelCode {
 	public static String readStringData(int row,int col)throws IOException
 	{
 		f=new FileInputStream("C:\\Users\\HP\\Desktop\\java\\Book1.xlsx");
-		w=new XSSFWorkbook(f);
+		w=new XSSFWorkbook(f);//f is location
 		sh=w.getSheet("Sheet1");
 		XSSFRow r=sh.getRow(row);
 		XSSFCell c=r.getCell(col);
@@ -31,8 +31,9 @@ public class ExcelCode {
 		sh=w.getSheet("Sheet1");
 		XSSFRow r=sh.getRow(row);
 		XSSFCell c=r.getCell(col);
-		int val=(int) c.getNumericCellValue();
-		return String.valueOf(val);
+		int val=(int) c.getNumericCellValue();//double value is converted into integer
+		//getNumericCellValue is of double data type
+		return String.valueOf(val);//convert the integer into string
 	}
 	
 

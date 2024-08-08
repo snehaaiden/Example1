@@ -4,7 +4,7 @@ public class Student {
 	String name;
 	int rollno;
 	
-	Address adr;//reference variable for class
+	Address adr;//entity reference variable for class
 	public Student(String name,int rollno,Address adr)
 	{
 		this.name=name;

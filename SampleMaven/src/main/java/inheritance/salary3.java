@@ -1,6 +1,6 @@
 package inheritance;
 
-public class salary3 extends salary2
+public class salary3 extends salary2//multilevel inheritance
 {
 	public void generateSlip()
 	{
