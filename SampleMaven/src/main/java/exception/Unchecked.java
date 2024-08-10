@@ -17,6 +17,7 @@ public class Unchecked {
 	public static void main(String[] args) {
 		
 Unchecked.cal();
+System.out.println("hai");
 											}
 
 }

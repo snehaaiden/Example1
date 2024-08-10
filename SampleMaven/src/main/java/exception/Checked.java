@@ -18,7 +18,7 @@ public class Checked {
 		//it can be removed when e.printStackTrace(); is removed
 	
 		
-		//Checked.M();   throws IOException  along with mainfunction
+		//Checked.M();  // throws IOException  along with mainfunction
 		
 
 	}
