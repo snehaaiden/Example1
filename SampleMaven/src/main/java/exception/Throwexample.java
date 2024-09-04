@@ -15,19 +15,19 @@ public class Throwexample {
 	}
 
 	public static void main(String[] args) {
-	try{
+	/*try{
 		
 		check(60,10);
 	}
 	catch(ArithmeticException e)
 	{
 		System.out.println(e);
-	}
-	//check(50,10);
-	finally
+	}*/
+	check(50,10);
+	/*finally
 	{
 		System.out.println("Should print this statement");
-	}
+	}*/
 	System.out.println("rest of code is executed");
 		
 	

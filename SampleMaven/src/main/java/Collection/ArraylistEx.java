@@ -12,24 +12,26 @@ public class ArraylistEx {
 		l1.add("sneha");
 		l1.add("aiden");
 		System.out.println(l1);
-		//System.out.println(l1.isEmpty());
-		
-	/*	List l2=new ArrayList();//non generic
+		System.out.println(l1.isEmpty());//whether empty or not(t/f)
+		System.out.println(l1);
+	
+		List l2=new ArrayList();//non generic
 		l2.add("1");
 		l2.add(2);
 		System.out.println("non generic");
 		System.out.println(l2);
 		System.out.println(l2.isEmpty());
-		System.out.println(l2.size());*/
+		System.out.println(l2.size());
 		
-		ArrayList l3= new ArrayList();//non generic
+		/*ArrayList l3= new ArrayList();//non generic
 		l3.add("apple");
 		l3.add("mango");
 		System.out.println("next l3");
-		System.out.println(l3);
+		System.out.println(l3);*/
+		
 		ArrayList<String> l4= new ArrayList<String>();//generic
 		
-		/*l4.add("apple");
+		l4.add("apple");
 		l4.add("orange");
 		l4.add(0, "banana");
 		l4.add("orange");
@@ -38,19 +40,19 @@ public class ArraylistEx {
 		System.out.println(l4);
 		System.out.println(l4.contains("grapes"));//true or not
 		
-		l1.remove("sneha");
+		/*l1.remove("sneha");
 		System.out.println(l1);
 		System.out.println(l1.get(1));//print 1st element
 		System.out.println(l2);
 		System.out.println(l2.set(1,"mango"));
-		System.out.println(l2);
+		System.out.println(l2);*/
 		
 		System.out.println("In for loop");
 		
 		for(int i=0;i<l4.size();i++)
 		{
 			System.out.println(l4.get(i));
-		}
+		}/*
 		System.out.println("for each loop");
 		
 		for(String j:l4) //for each loop
